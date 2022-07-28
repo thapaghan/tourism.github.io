@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tourism | Nepal|Gallery </title>
+    <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="../index.html"> <img src="../image/logo.png" /></a>
+            <div class="nav_links" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"> </i>
+
+                <ul>
+                    <li> <a href="../index.html">Home</a></li>
+                    <li> <a href="place.html">Places To Visit</a></li>
+                    <li> <a href="gallery.html">Gallery</a></li>
+                    <li> <a href="about.html">AboutUs</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+
+         <div class="text">
+            <h1> Photo Features </h1>
+        </div>
+        <div class="wrapper">
+        
+            <div class="gallery">
+                <div class="gallery__item gallery__item--1">
+                    <a href="#" class="gallery__link">
+                        <img src="../image/darbar.jpg" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>Durbar Square</span>
+        
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item gallery__item--2">
+                    <a href="#" class="gallery__link">
+                        <img src="../image/1.jpeg" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>Cultural Dance</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item gallery__item--3">
+                    <a href="#" class="gallery__link">
+                        <img src="../image/v1.jpeg" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>Yak in the Himalaya</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item gallery__item--4">
+                    <a href="#" class="gallery__link">
+                        <img src="../image/v2.jpeg" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>Swoyambhu Nath</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item gallery__item--5">
+                    <a href="#" class="gallery__link">
+                        <img src="../image/chtwan.jpg" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>Elephants in a field</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__item gallery__item--6">
+                    <a href="#" class="gallery__link">
+                        <img src="../image/kapan.jpeg" class="gallery__image" />
+                        <div class="gallery__overlay">
+                            <span>Kapan Monastry</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+        </div>
+</section>
+
+<div class="vdo-container">
+<div class="text-vdo">
+   <h1> Video Gallery </h1>
+</div>
+<div class="vdo-row">
+            
+                        <iframe src="https://www.youtube.com/embed/h1qVQdQl2zg" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; 
+                        encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+        
+            
+                        <iframe src="https://www.youtube.com/embed/WnGWfHJQb5U" 
+                        title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                        gyroscope; picture-in-picture"
+                         allowfullscreen></iframe>
+                            
+    
+                        <iframe  
+                        src="https://www.youtube.com/embed/nQmQ9St8cL8" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; 
+                        encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+        
+           
+        </div>
+</div>
+
+   
+<!-- For Footer -->
+<section id="footer">
+    <div class="footerrow">
+    <div class="foot"> <h1>About Us </h1>
+    <p class="para">
+            We are students of KCGI (Kyoto College of Graduate Studies for Informatics).
+        This page is designed as a final project of Web programming under the provision of Mr. Amit Pariyar.
+        We are web programming student in learning phase. our future goal is to be a full stack web developer.  
+    </p>
+    
+    
+    </div>
+    <div class="foot"> 
+        <h1>Address</h1>
+    <p> 
+        Kyoto prefecture, Kyoto City <br>
+        Fhushimi-ku, Fukakusa Nishiuracho, Japan
+    </p>
+    </div>
+    <div class="foot"> <h1> Contact US </h1> 
+    <p> 
+        080-6408-6793 , 080-6408-6793 <br>
+        080-9369-1050 , 080-5758-6468
+    </p>
+     <p class="social"> 
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-pinterest-p"></i>
+     </p>
+    </div>
+    <div class="foot">
+        <h1> Important Links </h1>
+        <p>
+        <a href=" https://www.plannepal.com"> Nepal Travel Agency</a> <br>
+       <a href="  https://www.nepaltourstravel.com"> Local Tours & Travel Agency</a><br>
+        <a href=" https://www.thameltravel.com"> Thamels Travels</a><br>
+        <a href=" https://www.lovelynepaltours.com"> Lovely Nepal Tours</a>
+    </p>
+    </div>
+</div>
+</section>
+
+
+
+
+<script>
+    var navlinks=document.getElementById("navlink");
+    function showmenu(){
+        navlink.style.right="0";
+    }
+    function hidemenu(){
+        navlink.style.right="-210px";
+    }
+</script>
+
+</body>
+
+</html>

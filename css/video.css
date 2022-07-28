@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.vdo-container{
+    width: 80%;
+    margin: 80px auto;
+}
+
+body{
+    background: url(../image/mustang.jpg);
+}
+.vdo-container h1{
+    text-align: center;
+    color:white;
+    padding: 60px 0;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+.feature{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+.small-row{
+    display: flex;
+    background: ;
+}
